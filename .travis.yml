@@ -24,7 +24,6 @@ before_script:
 
 script:
   - "npm test"
-  - "npm run-script test-datasource"
   - "cd ../xtuple-extensions"
   - "npm test"
-  - "../xtuple/node_modules/.bin/jshint --exclude source/bi_open/client/lib source"
+  - "../xtuple/node_modules/.bin/jshint source"
