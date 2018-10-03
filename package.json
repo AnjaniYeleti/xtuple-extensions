@@ -3,7 +3,7 @@
   "author": "xTuple <dev@xtuple.com>",
   "name": "xtuple-extensions",
   "description": "xTuple Enterprise Resource Planning Mobile-Web client public extensions",
-  "version": "4.9.3",
+  "version": "4.10.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/xtuple/xtuple-extensions.git"
@@ -26,7 +26,6 @@
   },
   "scripts": {
     "test-build": "./node_modules/.bin/mocha -R spec test/build/build_app.js",
-    "test": "./node_modules/.bin/mocha -R spec test/lib/test_runner.js",
-    "test-bi_open": "cd ../xtuple/node-datasource; ../node_modules/.bin/mocha -t 40000 -R spec ../../xtuple-extensions/test/routes/routebi/*"
+    "test": "./node_modules/.bin/mocha -R spec test/lib/test_runner.js"
   }
 }
